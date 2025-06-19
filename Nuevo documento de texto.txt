@@ -1,0 +1,856 @@
+Windows PowerShell
+Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+
+Prueba la nueva tecnología PowerShell multiplataforma https://aka.ms/pscore6
+
+PS C:\Users\Emmanuel> Windows PowerShell
+Windows : El término 'Windows' no se reconoce como nombre de un cmdlet, función, archivo de script o programa
+ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta
+es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ Windows PowerShell
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Windows:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Emmanuel> Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+C : El término 'C' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 12
++ Copyright (C) Microsoft Corporation. Todos los derechos reservados.
++            ~
+    + CategoryInfo          : ObjectNotFound: (C:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Emmanuel>
+PS C:\Users\Emmanuel> Prueba la nueva tecnología PowerShell multiplataforma https://aka.ms/pscore6
+Prueba : El término 'Prueba' no se reconoce como nombre de un cmdlet, función, archivo de script o programa
+ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta
+es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ Prueba la nueva tecnología PowerShell multiplataforma https://aka.ms/ ...
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Prueba:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Emmanuel>
+PS C:\Users\Emmanuel> PS C:\Windows\system32> cd /d D:\muserver_01_SRC
+Get-Process : No se encuentra ningún parámetro de posición que acepte el argumento 'cd'.
+En línea: 1 Carácter: 1
++ PS C:\Windows\system32> cd /d D:\muserver_01_SRC
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Process], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.GetProcessCommand
+
+PS C:\Users\Emmanuel> Set-Location : No se encuentra ningún parámetro de posición que acepte el argumento 'D:\muserver_01_SRC'.
+Set-Location : No se encuentra ningún parámetro de posición que acepte el argumento 'No'.
+En línea: 1 Carácter: 1
++ Set-Location : No se encuentra ningún parámetro de posición que acept ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Location], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\Emmanuel> En línea: 1 Carácter: 1
+En : El término 'En' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ En línea: 1 Carácter: 1
++ ~~
+    + CategoryInfo          : ObjectNotFound: (En:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Emmanuel> + cd /d D:\muserver_01_SRC
+En línea: 1 Carácter: 2
++ + cd /d D:\muserver_01_SRC
++  ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 3
++ + cd /d D:\muserver_01_SRC
++   ~~
+Token 'cd' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel> + ~~~~~~~~~~~~~~~~~~~~~~~~
+En línea: 1 Carácter: 2
++ + ~~~~~~~~~~~~~~~~~~~~~~~~
++  ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 3
++ + ~~~~~~~~~~~~~~~~~~~~~~~~
++   ~~~~~~~~~~~~~~~~~~~~~~~~
+Token '~~~~~~~~~~~~~~~~~~~~~~~~' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel>     + CategoryInfo          : InvalidArgument: (:) [Set-Location], ParameterBindingException
+En línea: 1 Carácter: 6
++     + CategoryInfo          : InvalidArgument: (:) [Set-Location], Pa ...
++      ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 7
++     + CategoryInfo          : InvalidArgument: (:) [Set-Location], Pa ...
++       ~~~~~~~~~~~~
+Token 'CategoryInfo' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel>     + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+En línea: 1 Carácter: 6
++     + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.P ...
++      ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 7
++     + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.P ...
++       ~~~~~~~~~~~~~~~~~~~~~
+Token 'FullyQualifiedErrorId' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel>
+PS C:\Users\Emmanuel> PS C:\Windows\system32> PS C:\Windows\system32> cd /d D:\muserver_01_SRC
+Get-Process : No se encuentra ningún parámetro de posición que acepte el argumento 'PS'.
+En línea: 1 Carácter: 1
++ PS C:\Windows\system32> PS C:\Windows\system32> cd /d D:\muserver_01_ ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Process], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.GetProcessCommand
+
+PS C:\Users\Emmanuel> Get-Process : No se encuentra ningún parámetro de posición que acepte el argumento 'cd'.
+Get-Process : No se encuentra ningún parámetro de posición que acepte el argumento 'No'.
+En línea: 1 Carácter: 1
++ Get-Process : No se encuentra ningún parámetro de posición que acepte ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Process], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.GetProcessCommand
+
+PS C:\Users\Emmanuel> En línea: 1 Carácter: 1
+En : El término 'En' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ En línea: 1 Carácter: 1
++ ~~
+    + CategoryInfo          : ObjectNotFound: (En:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Emmanuel> + PS C:\Windows\system32> cd /d D:\muserver_01_SRC
+En línea: 1 Carácter: 2
++ + PS C:\Windows\system32> cd /d D:\muserver_01_SRC
++  ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 3
++ + PS C:\Windows\system32> cd /d D:\muserver_01_SRC
++   ~~
+Token 'PS' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel> + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+En línea: 1 Carácter: 2
++ + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++  ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 3
++ + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Token '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel>     + CategoryInfo          : InvalidArgument: (:) [Get-Process], ParameterBindingException
+En línea: 1 Carácter: 6
++     + CategoryInfo          : InvalidArgument: (:) [Get-Process], Par ...
++      ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 7
++     + CategoryInfo          : InvalidArgument: (:) [Get-Process], Par ...
++       ~~~~~~~~~~~~
+Token 'CategoryInfo' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel>     + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.GetProcessCommand
+En línea: 1 Carácter: 6
++     + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.P ...
++      ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 7
++     + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.P ...
++       ~~~~~~~~~~~~~~~~~~~~~
+Token 'FullyQualifiedErrorId' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel>
+PS C:\Users\Emmanuel> PS C:\Windows\system32> Set-Location : No se encuentra ningún parámetro de posición que acepte el argumento 'D:\muserver_01_SRC'.
+Get-Process : No se encuentra ningún parámetro de posición que acepte el argumento 'Set-Location'.
+En línea: 1 Carácter: 1
++ PS C:\Windows\system32> Set-Location : No se encuentra ningún parámet ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Process], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.GetProcessCommand
+
+PS C:\Users\Emmanuel> Set-Location : No se encuentra ningún parámetro de posición que acepte el argumento 'No'.
+Set-Location : No se encuentra ningún parámetro de posición que acepte el argumento 'No'.
+En línea: 1 Carácter: 1
++ Set-Location : No se encuentra ningún parámetro de posición que acept ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Set-Location], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\Emmanuel> En línea: 1 Carácter: 1
+En : El término 'En' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ En línea: 1 Carácter: 1
++ ~~
+    + CategoryInfo          : ObjectNotFound: (En:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Emmanuel> + Set-Location : No se encuentra ningún parámetro de posición que acept ...
+En línea: 1 Carácter: 2
++ + Set-Location : No se encuentra ningún parámetro de posición que ace ...
++  ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 3
++ + Set-Location : No se encuentra ningún parámetro de posición que ace ...
++   ~~~~~~~~~~~~
+Token 'Set-Location' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel> + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+En línea: 1 Carácter: 2
++ + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ...
++  ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 3
++ + ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ...
++   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Token '~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~' inesperado en la expresión o la
+instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel>     + CategoryInfo          : InvalidArgument: (:) [Set-Location], ParameterBindingException
+En línea: 1 Carácter: 6
++     + CategoryInfo          : InvalidArgument: (:) [Set-Location], Pa ...
++      ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 7
++     + CategoryInfo          : InvalidArgument: (:) [Set-Location], Pa ...
++       ~~~~~~~~~~~~
+Token 'CategoryInfo' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel>     + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+En línea: 1 Carácter: 6
++     + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.P ...
++      ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 7
++     + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.P ...
++       ~~~~~~~~~~~~~~~~~~~~~
+Token 'FullyQualifiedErrorId' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel>
+PS C:\Users\Emmanuel> PS C:\Windows\system32> En línea: 1 Carácter: 1
+Get-Process : No se encuentra ningún parámetro de posición que acepte el argumento 'En'.
+En línea: 1 Carácter: 1
++ PS C:\Windows\system32> En línea: 1 Carácter: 1
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Process], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.GetProcessCommand
+
+PS C:\Users\Emmanuel> En : El término 'En' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+En : El término 'En' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ En : El término 'En' no se reconoce como nombre de un cmdlet, función ...
++ ~~
+    + CategoryInfo          : ObjectNotFound: (En:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Emmanuel> Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+Compruebe : El término 'Compruebe' no se reconoce como nombre de un cmdlet, función, archivo de script o programa
+ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta
+es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ Compruebe si escribió correctamente el nombre o, si incluyó una ruta  ...
++ ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Compruebe:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Emmanuel> inténtelo de nuevo.
+inténtelo : El término 'inténtelo' no se reconoce como nombre de un cmdlet, función, archivo de script o programa
+ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta
+es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ inténtelo de nuevo.
++ ~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (inténtelo:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Emmanuel> En línea: 1 Carácter: 1
+En : El término 'En' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ En línea: 1 Carácter: 1
++ ~~
+    + CategoryInfo          : ObjectNotFound: (En:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Emmanuel> + En línea: 1 Carácter: 1
+En línea: 1 Carácter: 2
++ + En línea: 1 Carácter: 1
++  ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 3
++ + En línea: 1 Carácter: 1
++   ~~
+Token 'En' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel> + ~~
+En línea: 1 Carácter: 2
++ + ~~
++  ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 3
++ + ~~
++   ~~
+Token '~~' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel>     + CategoryInfo          : ObjectNotFound: (En:String) [], CommandNotFoundException
+En línea: 1 Carácter: 6
++     + CategoryInfo          : ObjectNotFound: (En:String) [], Command ...
++      ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 7
++     + CategoryInfo          : ObjectNotFound: (En:String) [], Command ...
++       ~~~~~~~~~~~~
+Token 'CategoryInfo' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel>     + FullyQualifiedErrorId : CommandNotFoundException
+En línea: 1 Carácter: 6
++     + FullyQualifiedErrorId : CommandNotFoundException
++      ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 7
++     + FullyQualifiedErrorId : CommandNotFoundException
++       ~~~~~~~~~~~~~~~~~~~~~
+Token 'FullyQualifiedErrorId' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel>
+PS C:\Users\Emmanuel> PS C:\Windows\system32> + cd /d D:\muserver_01_SRC
+Get-Process : No se encuentra ningún parámetro de posición que acepte el argumento '+'.
+En línea: 1 Carácter: 1
++ PS C:\Windows\system32> + cd /d D:\muserver_01_SRC
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Process], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.GetProcessCommand
+
+PS C:\Users\Emmanuel> En línea: 1 Carácter: 2
+En : El término 'En' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ En línea: 1 Carácter: 2
++ ~~
+    + CategoryInfo          : ObjectNotFound: (En:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Emmanuel> + + cd /d D:\muserver_01_SRC
+En línea: 1 Carácter: 4
++ + + cd /d D:\muserver_01_SRC
++    ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 5
++ + + cd /d D:\muserver_01_SRC
++     ~~
+Token 'cd' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel> +  ~
+En línea: 1 Carácter: 2
++ +  ~
++  ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 4
++ +  ~
++    ~
+Token '~' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel> Falta una expresión después del operador unario '+'.
+Falta : El término 'Falta' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ Falta una expresión después del operador unario '+'.
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (Falta:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Emmanuel> En línea: 1 Carácter: 3
+En : El término 'En' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ En línea: 1 Carácter: 3
++ ~~
+    + CategoryInfo          : ObjectNotFound: (En:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Emmanuel> + + cd /d D:\muserver_01_SRC
+En línea: 1 Carácter: 4
++ + + cd /d D:\muserver_01_SRC
++    ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 5
++ + + cd /d D:\muserver_01_SRC
++     ~~
+Token 'cd' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel> +   ~~
+En línea: 1 Carácter: 2
++ +   ~~
++  ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 5
++ +   ~~
++     ~~
+Token '~~' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel> Token 'cd' inesperado en la expresión o la instrucción.
+Token : El término 'Token' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ Token 'cd' inesperado en la expresión o la instrucción.
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (Token:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Emmanuel>     + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+En línea: 1 Carácter: 6
++     + CategoryInfo          : ParserError: (:) [], ParentContainsErro ...
++      ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 7
++     + CategoryInfo          : ParserError: (:) [], ParentContainsErro ...
++       ~~~~~~~~~~~~
+Token 'CategoryInfo' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel>     + FullyQualifiedErrorId : MissingExpressionAfterOperator
+En línea: 1 Carácter: 6
++     + FullyQualifiedErrorId : MissingExpressionAfterOperator
++      ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 7
++     + FullyQualifiedErrorId : MissingExpressionAfterOperator
++       ~~~~~~~~~~~~~~~~~~~~~
+Token 'FullyQualifiedErrorId' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel>
+PS C:\Users\Emmanuel> PS C:\Windows\system32> + ~~~~~~~~~~~~~~~~~~~~~~~~
+Get-Process : No se encuentra ningún parámetro de posición que acepte el argumento '+'.
+En línea: 1 Carácter: 1
++ PS C:\Windows\system32> + ~~~~~~~~~~~~~~~~~~~~~~~~
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Process], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.GetProcessCommand
+
+PS C:\Users\Emmanuel> En línea: 1 Carácter: 2
+En : El término 'En' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ En línea: 1 Carácter: 2
++ ~~
+    + CategoryInfo          : ObjectNotFound: (En:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Emmanuel> + + ~~~~~~~~~~~~~~~~~~~~~~~~
+En línea: 1 Carácter: 4
++ + + ~~~~~~~~~~~~~~~~~~~~~~~~
++    ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 5
++ + + ~~~~~~~~~~~~~~~~~~~~~~~~
++     ~~~~~~~~~~~~~~~~~~~~~~~~
+Token '~~~~~~~~~~~~~~~~~~~~~~~~' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel> +  ~
+En línea: 1 Carácter: 2
++ +  ~
++  ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 4
++ +  ~
++    ~
+Token '~' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel> Falta una expresión después del operador unario '+'.
+Falta : El término 'Falta' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ Falta una expresión después del operador unario '+'.
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (Falta:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Emmanuel> En línea: 1 Carácter: 3
+En : El término 'En' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ En línea: 1 Carácter: 3
++ ~~
+    + CategoryInfo          : ObjectNotFound: (En:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Emmanuel> + + ~~~~~~~~~~~~~~~~~~~~~~~~
+En línea: 1 Carácter: 4
++ + + ~~~~~~~~~~~~~~~~~~~~~~~~
++    ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 5
++ + + ~~~~~~~~~~~~~~~~~~~~~~~~
++     ~~~~~~~~~~~~~~~~~~~~~~~~
+Token '~~~~~~~~~~~~~~~~~~~~~~~~' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel> +   ~~~~~~~~~~~~~~~~~~~~~~~~
+En línea: 1 Carácter: 2
++ +   ~~~~~~~~~~~~~~~~~~~~~~~~
++  ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 5
++ +   ~~~~~~~~~~~~~~~~~~~~~~~~
++     ~~~~~~~~~~~~~~~~~~~~~~~~
+Token '~~~~~~~~~~~~~~~~~~~~~~~~' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel> Token '~~~~~~~~~~~~~~~~~~~~~~~~' inesperado en la expresión o la instrucción.
+Token : El término 'Token' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ Token '~~~~~~~~~~~~~~~~~~~~~~~~' inesperado en la expresión o la inst ...
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (Token:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Emmanuel>     + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+En línea: 1 Carácter: 6
++     + CategoryInfo          : ParserError: (:) [], ParentContainsErro ...
++      ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 7
++     + CategoryInfo          : ParserError: (:) [], ParentContainsErro ...
++       ~~~~~~~~~~~~
+Token 'CategoryInfo' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel>     + FullyQualifiedErrorId : MissingExpressionAfterOperator
+En línea: 1 Carácter: 6
++     + FullyQualifiedErrorId : MissingExpressionAfterOperator
++      ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 7
++     + FullyQualifiedErrorId : MissingExpressionAfterOperator
++       ~~~~~~~~~~~~~~~~~~~~~
+Token 'FullyQualifiedErrorId' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel>
+PS C:\Users\Emmanuel> PS C:\Windows\system32>     + CategoryInfo          : InvalidArgument: (:) [Set-Location], ParameterBindingException
+: : El término ':' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 73
++ ... s\system32>     + CategoryInfo          : InvalidArgument: (:) [Set-L ...
++                                                                 ~
+    + CategoryInfo          : ObjectNotFound: (::String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Emmanuel> En línea: 1 Carácter: 6
+En : El término 'En' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ En línea: 1 Carácter: 6
++ ~~
+    + CategoryInfo          : ObjectNotFound: (En:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Emmanuel> +     + CategoryInfo          : InvalidArgument: (:) [Set-Location], Pa ...
+En línea: 1 Carácter: 8
++ +     + CategoryInfo          : InvalidArgument: (:) [Set-Location],  ...
++        ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 9
++ +     + CategoryInfo          : InvalidArgument: (:) [Set-Location],  ...
++         ~~~~~~~~~~~~
+Token 'CategoryInfo' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel> +      ~
+En línea: 1 Carácter: 2
++ +      ~
++  ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 8
++ +      ~
++        ~
+Token '~' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel> Falta una expresión después del operador unario '+'.
+Falta : El término 'Falta' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ Falta una expresión después del operador unario '+'.
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (Falta:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Emmanuel> En línea: 1 Carácter: 7
+En : El término 'En' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ En línea: 1 Carácter: 7
++ ~~
+    + CategoryInfo          : ObjectNotFound: (En:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Emmanuel> +     + CategoryInfo          : InvalidArgument: (:) [Set-Location], Pa ...
+En línea: 1 Carácter: 8
++ +     + CategoryInfo          : InvalidArgument: (:) [Set-Location],  ...
++        ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 9
++ +     + CategoryInfo          : InvalidArgument: (:) [Set-Location],  ...
++         ~~~~~~~~~~~~
+Token 'CategoryInfo' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel> +       ~~~~~~~~~~~~
+En línea: 1 Carácter: 2
++ +       ~~~~~~~~~~~~
++  ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 9
++ +       ~~~~~~~~~~~~
++         ~~~~~~~~~~~~
+Token '~~~~~~~~~~~~' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel> Token 'CategoryInfo' inesperado en la expresión o la instrucción.
+Token : El término 'Token' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ Token 'CategoryInfo' inesperado en la expresión o la instrucción.
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (Token:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Emmanuel>     + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+En línea: 1 Carácter: 6
++     + CategoryInfo          : ParserError: (:) [], ParentContainsErro ...
++      ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 7
++     + CategoryInfo          : ParserError: (:) [], ParentContainsErro ...
++       ~~~~~~~~~~~~
+Token 'CategoryInfo' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel>     + FullyQualifiedErrorId : MissingExpressionAfterOperator
+En línea: 1 Carácter: 6
++     + FullyQualifiedErrorId : MissingExpressionAfterOperator
++      ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 7
++     + FullyQualifiedErrorId : MissingExpressionAfterOperator
++       ~~~~~~~~~~~~~~~~~~~~~
+Token 'FullyQualifiedErrorId' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel>
+PS C:\Users\Emmanuel> PS C:\Windows\system32>     + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+Get-Process : No se encuentra ningún parámetro de posición que acepte el argumento '+'.
+En línea: 1 Carácter: 1
++ PS C:\Windows\system32>     + FullyQualifiedErrorId : PositionalParam ...
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Get-Process], ParameterBindingException
+    + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.PowerShell.Commands.GetProcessCommand
+
+PS C:\Users\Emmanuel> En línea: 1 Carácter: 6
+En : El término 'En' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ En línea: 1 Carácter: 6
++ ~~
+    + CategoryInfo          : ObjectNotFound: (En:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Emmanuel> +     + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.P ...
+En línea: 1 Carácter: 8
++ +     + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft ...
++        ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 9
++ +     + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft ...
++         ~~~~~~~~~~~~~~~~~~~~~
+Token 'FullyQualifiedErrorId' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel> +      ~
+En línea: 1 Carácter: 2
++ +      ~
++  ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 8
++ +      ~
++        ~
+Token '~' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel> Falta una expresión después del operador unario '+'.
+Falta : El término 'Falta' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ Falta una expresión después del operador unario '+'.
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (Falta:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Emmanuel> En línea: 1 Carácter: 7
+En : El término 'En' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ En línea: 1 Carácter: 7
++ ~~
+    + CategoryInfo          : ObjectNotFound: (En:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Emmanuel> +     + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft.P ...
+En línea: 1 Carácter: 8
++ +     + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft ...
++        ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 9
++ +     + FullyQualifiedErrorId : PositionalParameterNotFound,Microsoft ...
++         ~~~~~~~~~~~~~~~~~~~~~
+Token 'FullyQualifiedErrorId' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel> +       ~~~~~~~~~~~~~~~~~~~~~
+En línea: 1 Carácter: 2
++ +       ~~~~~~~~~~~~~~~~~~~~~
++  ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 9
++ +       ~~~~~~~~~~~~~~~~~~~~~
++         ~~~~~~~~~~~~~~~~~~~~~
+Token '~~~~~~~~~~~~~~~~~~~~~' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel> Token 'FullyQualifiedErrorId' inesperado en la expresión o la instrucción.
+Token : El término 'Token' no se reconoce como nombre de un cmdlet, función, archivo de script o programa ejecutable.
+Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es correcta e
+inténtelo de nuevo.
+En línea: 1 Carácter: 1
++ Token 'FullyQualifiedErrorId' inesperado en la expresión o la instruc ...
++ ~~~~~
+    + CategoryInfo          : ObjectNotFound: (Token:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\Emmanuel>     + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+En línea: 1 Carácter: 6
++     + CategoryInfo          : ParserError: (:) [], ParentContainsErro ...
++      ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 7
++     + CategoryInfo          : ParserError: (:) [], ParentContainsErro ...
++       ~~~~~~~~~~~~
+Token 'CategoryInfo' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel>     + FullyQualifiedErrorId : MissingExpressionAfterOperator
+En línea: 1 Carácter: 6
++     + FullyQualifiedErrorId : MissingExpressionAfterOperator
++      ~
+Falta una expresión después del operador unario '+'.
+En línea: 1 Carácter: 7
++     + FullyQualifiedErrorId : MissingExpressionAfterOperator
++       ~~~~~~~~~~~~~~~~~~~~~
+Token 'FullyQualifiedErrorId' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : MissingExpressionAfterOperator
+
+PS C:\Users\Emmanuel>
+PS C:\Users\Emmanuel> PS C:\Windows\system32>
+PS : No se encuentra ningún proceso con el nombre "C:\Windows\system32>". Compruebe el nombre del proceso y ejecute de
+nuevo el cmdlet.
+En línea: 1 Carácter: 1
++ PS C:\Windows\system32>
++ ~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Windows\system32>:String) [Get-Process], ProcessCommandException
+    + FullyQualifiedErrorId : NoProcessFoundForGivenName,Microsoft.PowerShell.Commands.GetProcessCommand
+
+PS C:\Users\Emmanuel> PS C:\Windows\system32> PS C:\Windows\system32>
